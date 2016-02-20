@@ -63,3 +63,4 @@ while (\$contact=mysql_fetch_array(\$QUERYresult)){
 echo "0 * * * * root /usr/bin/php5 /var/www/html/freepbx_phonebook.php" >> /etc/crontab
 service cron reload
 
+#
