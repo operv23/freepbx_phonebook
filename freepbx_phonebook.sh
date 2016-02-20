@@ -60,6 +60,6 @@ while (\$contact=mysql_fetch_array(\$QUERYresult)){
 \$writer->flush();
 ?>
 " >> /var/www/html/freepbx_phonebook.php
-echo "* * * * * root /usr/bin/php5 /var/www/html/freepbx_phonebook.php" >> /etc/crontabe
+echo "* * * * * root /usr/bin/php5 /var/www/html/freepbx_phonebook.php" >> /etc/crontab
 service cron reload
 
